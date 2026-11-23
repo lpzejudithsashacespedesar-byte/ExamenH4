@@ -13,7 +13,7 @@ public class ObstacleController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            if (audioSource != null && audioSource.clip != null)
+            if (audioSource != null)
                 audioSource.Play();
         }
     }
